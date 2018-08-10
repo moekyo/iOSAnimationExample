@@ -10,6 +10,11 @@
 		6062960673295C45A1938913 /* Pods_iOSAnimationExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18D12C322F77B842AC6C2B /* Pods_iOSAnimationExampleTests.framework */; };
 		8B659E0BAC9FB57C2EECD44B /* Pods_iOSAnimationExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86E8A952B8B3C088B7EE32A /* Pods_iOSAnimationExampleUITests.framework */; };
 		900F3F24C1C349C408F5CB09 /* Pods_iOSAnimationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A76A296DE4217AD3CA160F /* Pods_iOSAnimationExample.framework */; };
+		E2149F93211BD122006A5830 /* GooeySlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2149F92211BD122006A5830 /* GooeySlideMenu.swift */; };
+		E2149F95211BDAAF006A5830 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2149F94211BDAAF006A5830 /* SlideMenu.swift */; };
+		E2149F98211D210B006A5830 /* DragBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2149F97211D210B006A5830 /* DragBubbleViewController.swift */; };
+		E2149F9A211D226A006A5830 /* DragBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2149F99211D226A006A5830 /* DragBubbleView.swift */; };
+		E2149F9C211D7AB9006A5830 /* 坐标求解.png in Resources */ = {isa = PBXBuildFile; fileRef = E2149F9B211D7AB9006A5830 /* 坐标求解.png */; };
 		E2170F1E2113ED0E005C3EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2170F1D2113ED0E005C3EE0 /* AppDelegate.swift */; };
 		E2170F202113ED0E005C3EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2170F1F2113ED0E005C3EE0 /* ViewController.swift */; };
 		E2170F232113ED0E005C3EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2170F212113ED0E005C3EE0 /* Main.storyboard */; };
@@ -48,6 +53,11 @@
 		99A76A296DE4217AD3CA160F /* Pods_iOSAnimationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAnimationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CF981431A17F0C8179E5FC /* Pods-iOSAnimationExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimationExampleUITests/Pods-iOSAnimationExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D7BC61A5383F57478210C070 /* Pods-iOSAnimationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimationExampleTests/Pods-iOSAnimationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2149F92211BD122006A5830 /* GooeySlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooeySlideMenu.swift; sourceTree = "<group>"; };
+		E2149F94211BDAAF006A5830 /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		E2149F97211D210B006A5830 /* DragBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBubbleViewController.swift; sourceTree = "<group>"; };
+		E2149F99211D226A006A5830 /* DragBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBubbleView.swift; sourceTree = "<group>"; };
+		E2149F9B211D7AB9006A5830 /* 坐标求解.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "坐标求解.png"; sourceTree = "<group>"; };
 		E2170F1A2113ED0E005C3EE0 /* iOSAnimationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAnimationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2170F1D2113ED0E005C3EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2170F1F2113ED0E005C3EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +128,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E2149F91211BD107006A5830 /* GooeySlideMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2149F92211BD122006A5830 /* GooeySlideMenu.swift */,
+				E2149F94211BDAAF006A5830 /* SlideMenu.swift */,
+			);
+			path = GooeySlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		E2149F96211C447C006A5830 /* DragBubbleViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2149F9B211D7AB9006A5830 /* 坐标求解.png */,
+				E2149F97211D210B006A5830 /* DragBubbleViewController.swift */,
+				E2149F99211D226A006A5830 /* DragBubbleView.swift */,
+			);
+			path = DragBubbleViewDemo;
+			sourceTree = "<group>";
+		};
 		E2170F112113ED0E005C3EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +172,8 @@
 		E2170F1C2113ED0E005C3EE0 /* iOSAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
+				E2149F96211C447C006A5830 /* DragBubbleViewDemo */,
+				E2149F91211BD107006A5830 /* GooeySlideMenuDemo */,
 				E2EB78182114339500EE8C1A /* AnimatedCircleDemo */,
 				E2170F1D2113ED0E005C3EE0 /* AppDelegate.swift */,
 				E2170F1F2113ED0E005C3EE0 /* ViewController.swift */,
@@ -301,6 +332,7 @@
 				E2170F282113ED0F005C3EE0 /* LaunchScreen.storyboard in Resources */,
 				E2170F252113ED0F005C3EE0 /* Assets.xcassets in Resources */,
 				E2170F232113ED0E005C3EE0 /* Main.storyboard in Resources */,
+				E2149F9C211D7AB9006A5830 /* 坐标求解.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +434,13 @@
 			files = (
 				E2EB781D211439CA00EE8C1A /* CircleView.swift in Sources */,
 				E2170F202113ED0E005C3EE0 /* ViewController.swift in Sources */,
+				E2149F98211D210B006A5830 /* DragBubbleViewController.swift in Sources */,
+				E2149F93211BD122006A5830 /* GooeySlideMenu.swift in Sources */,
 				E2170F1E2113ED0E005C3EE0 /* AppDelegate.swift in Sources */,
 				E2EB781F211439DC00EE8C1A /* CircleLayer.swift in Sources */,
 				E2EB781A211433A500EE8C1A /* AnimatedCircle.swift in Sources */,
+				E2149F95211BDAAF006A5830 /* SlideMenu.swift in Sources */,
+				E2149F9A211D226A006A5830 /* DragBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +617,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -597,7 +636,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -614,7 +656,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -632,7 +678,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -649,7 +699,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -666,7 +720,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A35Y5VNV96;
 				INFOPLIST_FILE = iOSAnimationExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = moekyo.iOSAnimationExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
