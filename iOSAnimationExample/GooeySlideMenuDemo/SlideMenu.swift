@@ -2,7 +2,7 @@
 //  SlideMenu.swift
 //  iOSAnimationExample
 //
-//  Created by edaotech on 2018/8/9.
+//  Created by moekyo on 2018/8/9.
 //  Copyright © 2018年 moekyo. All rights reserved.
 //
 

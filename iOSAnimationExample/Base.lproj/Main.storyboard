@@ -381,5 +381,20 @@
             </objects>
             <point key="canvasLocation" x="820" y="743"/>
         </scene>
+        <!--Liquid Loader View Controller-->
+        <scene sceneID="7ra-Gq-WNp">
+            <objects>
+                <viewController storyboardIdentifier="LiquidLoader" id="eB7-fH-R5z" customClass="LiquidLoaderViewController" customModule="iOSAnimationExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cYR-GT-Feb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WZx-K3-3kM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfv-Db-rGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="746"/>
+        </scene>
     </scenes>
 </document>

@@ -22,6 +22,18 @@
 		E2170F282113ED0F005C3EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2170F262113ED0F005C3EE0 /* LaunchScreen.storyboard */; };
 		E2170F332113ED0F005C3EE0 /* iOSAnimationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2170F322113ED0F005C3EE0 /* iOSAnimationExampleTests.swift */; };
 		E2170F3E2113ED0F005C3EE0 /* iOSAnimationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2170F3D2113ED0F005C3EE0 /* iOSAnimationExampleUITests.swift */; };
+		E24F6F8F211D9047004BB59C /* LiquidLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F8E211D9047004BB59C /* LiquidLoaderViewController.swift */; };
+		E24F6F91211D9053004BB59C /* LiquidLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F90211D9053004BB59C /* LiquidLoader.swift */; };
+		E24F6F93211D9688004BB59C /* LiquidLoadEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F92211D9688004BB59C /* LiquidLoadEffect.swift */; };
+		E24F6F9521211E46004BB59C /* LiquittableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9421211E46004BB59C /* LiquittableCircle.swift */; };
+		E24F6F9721211E67004BB59C /* SimpleCircleLiquidEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9621211E67004BB59C /* SimpleCircleLiquidEngine.swift */; };
+		E24F6F9921212250004BB59C /* UIView+Grow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9821212250004BB59C /* UIView+Grow.swift */; };
+		E24F6F9B212122A5004BB59C /* CGPointExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9A212122A5004BB59C /* CGPointExt.swift */; };
+		E24F6F9D21212412004BB59C /* CircularGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9C21212412004BB59C /* CircularGradientLayer.swift */; };
+		E24F6F9F212124AA004BB59C /* LiquidUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6F9E212124AA004BB59C /* LiquidUtil.swift */; };
+		E24F6FA12121289E004BB59C /* LiquidCircleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA02121289E004BB59C /* LiquidCircleEffect.swift */; };
+		E24F6FA3212128A9004BB59C /* LiquidLineEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA2212128A9004BB59C /* LiquidLineEffect.swift */; };
+		E24F6FA521212A1B004BB59C /* CGRectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA421212A1B004BB59C /* CGRectExt.swift */; };
 		E2EB781A211433A500EE8C1A /* AnimatedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB7819211433A500EE8C1A /* AnimatedCircle.swift */; };
 		E2EB781D211439CA00EE8C1A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB781C211439CA00EE8C1A /* CircleView.swift */; };
 		E2EB781F211439DC00EE8C1A /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EB781E211439DC00EE8C1A /* CircleLayer.swift */; };
@@ -71,6 +83,18 @@
 		E2170F392113ED0F005C3EE0 /* iOSAnimationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2170F3D2113ED0F005C3EE0 /* iOSAnimationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAnimationExampleUITests.swift; sourceTree = "<group>"; };
 		E2170F3F2113ED0F005C3EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24F6F8E211D9047004BB59C /* LiquidLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidLoaderViewController.swift; sourceTree = "<group>"; };
+		E24F6F90211D9053004BB59C /* LiquidLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidLoader.swift; sourceTree = "<group>"; };
+		E24F6F92211D9688004BB59C /* LiquidLoadEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidLoadEffect.swift; sourceTree = "<group>"; };
+		E24F6F9421211E46004BB59C /* LiquittableCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquittableCircle.swift; sourceTree = "<group>"; };
+		E24F6F9621211E67004BB59C /* SimpleCircleLiquidEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCircleLiquidEngine.swift; sourceTree = "<group>"; };
+		E24F6F9821212250004BB59C /* UIView+Grow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Grow.swift"; sourceTree = "<group>"; };
+		E24F6F9A212122A5004BB59C /* CGPointExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExt.swift; sourceTree = "<group>"; };
+		E24F6F9C21212412004BB59C /* CircularGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularGradientLayer.swift; sourceTree = "<group>"; };
+		E24F6F9E212124AA004BB59C /* LiquidUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidUtil.swift; sourceTree = "<group>"; };
+		E24F6FA02121289E004BB59C /* LiquidCircleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidCircleEffect.swift; sourceTree = "<group>"; };
+		E24F6FA2212128A9004BB59C /* LiquidLineEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidLineEffect.swift; sourceTree = "<group>"; };
+		E24F6FA421212A1B004BB59C /* CGRectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExt.swift; sourceTree = "<group>"; };
 		E2EB7819211433A500EE8C1A /* AnimatedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircle.swift; sourceTree = "<group>"; };
 		E2EB781C211439CA00EE8C1A /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		E2EB781E211439DC00EE8C1A /* CircleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
@@ -172,6 +196,7 @@
 		E2170F1C2113ED0E005C3EE0 /* iOSAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
+				E24F6F8D211D9032004BB59C /* LiquidLoader */,
 				E2149F96211C447C006A5830 /* DragBubbleViewDemo */,
 				E2149F91211BD107006A5830 /* GooeySlideMenuDemo */,
 				E2EB78182114339500EE8C1A /* AnimatedCircleDemo */,
@@ -201,6 +226,41 @@
 				E2170F3F2113ED0F005C3EE0 /* Info.plist */,
 			);
 			path = iOSAnimationExampleUITests;
+			sourceTree = "<group>";
+		};
+		E24F6F8D211D9032004BB59C /* LiquidLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E24F6FA621213989004BB59C /* Extension */,
+				E24F6FA7212139B9004BB59C /* Effect */,
+				E24F6F8E211D9047004BB59C /* LiquidLoaderViewController.swift */,
+				E24F6F90211D9053004BB59C /* LiquidLoader.swift */,
+				E24F6F9C21212412004BB59C /* CircularGradientLayer.swift */,
+				E24F6F9E212124AA004BB59C /* LiquidUtil.swift */,
+				E24F6F9421211E46004BB59C /* LiquittableCircle.swift */,
+				E24F6F9621211E67004BB59C /* SimpleCircleLiquidEngine.swift */,
+			);
+			path = LiquidLoader;
+			sourceTree = "<group>";
+		};
+		E24F6FA621213989004BB59C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E24F6F9821212250004BB59C /* UIView+Grow.swift */,
+				E24F6F9A212122A5004BB59C /* CGPointExt.swift */,
+				E24F6FA421212A1B004BB59C /* CGRectExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E24F6FA7212139B9004BB59C /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				E24F6F92211D9688004BB59C /* LiquidLoadEffect.swift */,
+				E24F6FA02121289E004BB59C /* LiquidCircleEffect.swift */,
+				E24F6FA2212128A9004BB59C /* LiquidLineEffect.swift */,
+			);
+			path = Effect;
 			sourceTree = "<group>";
 		};
 		E2EB78182114339500EE8C1A /* AnimatedCircleDemo */ = {
@@ -432,15 +492,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24F6F9B212122A5004BB59C /* CGPointExt.swift in Sources */,
+				E24F6F9921212250004BB59C /* UIView+Grow.swift in Sources */,
 				E2EB781D211439CA00EE8C1A /* CircleView.swift in Sources */,
+				E24F6F91211D9053004BB59C /* LiquidLoader.swift in Sources */,
+				E24F6F93211D9688004BB59C /* LiquidLoadEffect.swift in Sources */,
 				E2170F202113ED0E005C3EE0 /* ViewController.swift in Sources */,
 				E2149F98211D210B006A5830 /* DragBubbleViewController.swift in Sources */,
+				E24F6FA12121289E004BB59C /* LiquidCircleEffect.swift in Sources */,
 				E2149F93211BD122006A5830 /* GooeySlideMenu.swift in Sources */,
+				E24F6F9D21212412004BB59C /* CircularGradientLayer.swift in Sources */,
+				E24F6F9F212124AA004BB59C /* LiquidUtil.swift in Sources */,
 				E2170F1E2113ED0E005C3EE0 /* AppDelegate.swift in Sources */,
+				E24F6F9721211E67004BB59C /* SimpleCircleLiquidEngine.swift in Sources */,
 				E2EB781F211439DC00EE8C1A /* CircleLayer.swift in Sources */,
+				E24F6F9521211E46004BB59C /* LiquittableCircle.swift in Sources */,
+				E24F6F8F211D9047004BB59C /* LiquidLoaderViewController.swift in Sources */,
 				E2EB781A211433A500EE8C1A /* AnimatedCircle.swift in Sources */,
 				E2149F95211BDAAF006A5830 /* SlideMenu.swift in Sources */,
+				E24F6FA3212128A9004BB59C /* LiquidLineEffect.swift in Sources */,
 				E2149F9A211D226A006A5830 /* DragBubbleView.swift in Sources */,
+				E24F6FA521212A1B004BB59C /* CGRectExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

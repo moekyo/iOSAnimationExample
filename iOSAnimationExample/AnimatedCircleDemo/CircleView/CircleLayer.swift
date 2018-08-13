@@ -2,7 +2,7 @@
 //  CircleLayer.swift
 //  iOSAnimationExample
 //
-//  Created by edaotech on 2018/8/3.
+//  Created by moekyo on 2018/8/3.
 //  Copyright © 2018年 moekyo. All rights reserved.
 //
 

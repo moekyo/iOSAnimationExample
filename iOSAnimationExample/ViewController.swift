@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  iOSAnimationExample
 //
-//  Created by edaotech on 2018/8/3.
+//  Created by moekyo on 2018/8/3.
 //  Copyright © 2018年 moekyo. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView"]
+    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView", "LiquidLoader"]
     
     
     override func viewDidLoad() {
