@@ -37,6 +37,7 @@ class LiquidLoader: UIView {
     private let effect: Effect
     private var effectDelegate: LiquidLoadEffect?
     
+
     public init(frame: CGRect, effect: Effect, duration: TimeInterval = 0) {
         self.effect = effect
         super.init(frame: frame)

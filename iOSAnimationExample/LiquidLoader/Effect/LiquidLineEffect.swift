@@ -16,8 +16,11 @@ class LiquidLineEffect : LiquidLoadEffect {
     
     override func setupShape() -> [LiquittableCircle] {
         return Array(0..<NumberOfCircles).map { i in
+            let a = self.circleRadius + CGFloat(i) * (self.circleInter + 2 * self.circleRadius)
+            let x = self.circleInter + a
+            let y = self.loader.frame.height * 0.5
             return LiquittableCircle(
-                center: CGPoint(x: self.circleInter + self.circleRadius + CGFloat(i) * (self.circleInter + 2 * self.circleRadius), y: self.loader.frame.height * 0.5),
+                center: CGPoint(x: x, y: y),
                 radius: self.circleRadius,
                 color: self.color
             )

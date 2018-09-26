@@ -109,8 +109,8 @@ class SimpleCircleLiquidEngine: NSObject {
         let (p3, p4) = circleConnectedPoint(circle: other, other: circle, angle: CGMath.degToRad(deg: 40))
         
         if let crossed = CGPoint.intersection(from: p1, to: p3, from2: p2, to2: p4) {
-            let (d1, _d1) = self.circleConnectedPoint(circle: circle, other: other, angle: 0)
-            let (d2, _d2) = self.circleConnectedPoint(circle: other, other: circle, angle: 0)
+            let (d1, _) = self.circleConnectedPoint(circle: circle, other: other, angle: 0)
+            let (d2, _) = self.circleConnectedPoint(circle: other, other: circle, angle: 0)
             let r = (ratio - ConnectThresh) / (angleThresh - ConnectThresh)
             
             let a1 = d1.split(point: crossed.mid(point: d2), ratio: 1 - r)
@@ -142,5 +142,5 @@ class SimpleCircleLiquidEngine: NSObject {
         let distance = circle.center.minus(point: other.center).length()
         return distance - circle.radius - other.radius < radiusThresh
     }
-
+    
 }

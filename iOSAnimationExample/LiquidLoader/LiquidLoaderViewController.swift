@@ -37,7 +37,9 @@ class LiquidLoaderViewController: UIViewController {
         view.addSubview(circleLoader)
         view.addSubview(circleMat)
         view.addSubview(lineMat)
-
+        
+        
+        
     }
 
 
