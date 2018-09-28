@@ -26,9 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         let logo = #imageLiteral(resourceName: "logo1").cgImage
-        
         let maskLayer = CALayer()
         maskLayer.contents = logo
+        maskLayer.contentsGravity = "resizeAspect"
         let width: CGFloat = 60.0
         maskLayer.frame = CGRect(x: 0, y: 0, width: width, height: width)
         maskLayer.position = navigationController.view.center
@@ -55,13 +55,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         logoMaskAnimaiton.fillMode = kCAFillModeForwards
         navigationController.view.layer.mask?.add(logoMaskAnimaiton, forKey: "logoMaskAnimaiton")
         
-        UIView.animate(withDuration: 0.1, delay: 1.35, options: .curveEaseIn, animations: { () -> Void in
+        UIView.animate(withDuration: 0.1, delay: 1.2, options: .curveEaseIn, animations: { () -> Void in
             maskBackgroundView.alpha = 0.0
         }) { (finished) -> Void in
             maskBackgroundView.removeFromSuperview()
         }
         
-        UIView.animate(withDuration: 0.25, delay: 1.3, options: [], animations: { () -> Void in
+        UIView.animate(withDuration: 0.25, delay: 1.0, options: [], animations: { () -> Void in
             navigationController.view.transform = CGAffineTransform(scaleX: 1.05, y: 1.05)
         }) { (finished) -> Void in
             UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseInOut, animations: { () -> Void in

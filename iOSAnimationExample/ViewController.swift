@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView", "LiquidLoader"]
+    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView", "LiquidLoader", "PingAnimation"]
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
+        
     }
 }
 
