@@ -10,13 +10,15 @@ import UIKit
 
 class PingAnimation: UIViewController {
     
-
+    @IBOutlet weak var backBtn: UIButton!
+    
     @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationController?.delegate = self
-        
+        self.button.layer.cornerRadius = self.button.bounds.width / 2
+        self.backBtn.layer.cornerRadius = self.backBtn.bounds.height / 2
     }
     
     override func viewWillAppear(_ animated: Bool) {

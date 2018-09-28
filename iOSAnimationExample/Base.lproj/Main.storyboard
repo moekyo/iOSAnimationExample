@@ -470,11 +470,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAn-IU-eb8">
-                                <rect key="frame" x="15" y="80" width="50" height="50"/>
+                                <rect key="frame" x="15" y="90" width="60" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="JKg-Uq-IZH"/>
-                                    <constraint firstAttribute="width" constant="50" id="hDK-ow-Kjw"/>
+                                    <constraint firstAttribute="height" constant="30" id="Qki-R6-0SO"/>
+                                    <constraint firstAttribute="width" constant="60" id="pql-bS-Ood"/>
                                 </constraints>
                                 <state key="normal" title="back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -494,6 +494,7 @@
                         <viewLayoutGuide key="safeArea" id="PIY-oM-kJl"/>
                     </view>
                     <connections>
+                        <outlet property="backBtn" destination="AAn-IU-eb8" id="lba-SY-5sp"/>
                         <outlet property="button" destination="OR7-Gi-4Bs" id="Yls-uv-JVc"/>
                     </connections>
                 </viewController>
