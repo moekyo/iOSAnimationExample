@@ -13,12 +13,52 @@ class PingAnimation: UIViewController {
     @IBOutlet weak var backBtn: UIButton!
     
     @IBOutlet weak var button: UIButton!
+   
+    fileprivate func backBtnAnimaiton() {
+        let duration: CFTimeInterval = 5
+        
+        let pathAnimation = CAKeyframeAnimation(keyPath: "position")
+        pathAnimation.calculationMode = kCAAnimationPaced
+        pathAnimation.fillMode = kCAFillModeForwards
+        pathAnimation.isRemovedOnCompletion = false
+        pathAnimation.repeatCount = Float.infinity
+        pathAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        pathAnimation.duration = duration
+        
+        
+        let circlePath = UIBezierPath(ovalIn: self.backBtn.frame.insetBy(dx: 25, dy: 10))
+        pathAnimation.path = circlePath.cgPath
+        self.backBtn.layer.add(pathAnimation, forKey: nil)
+        
+        
+        let scaleX = CAKeyframeAnimation(keyPath:"transform.scale.x")
+        scaleX.values   =  [0.9, 1.1, 1.0]
+        scaleX.keyTimes =  [0.0, 0.5,1.0]
+        scaleX.repeatCount = Float.infinity
+        scaleX.autoreverses = true
+        scaleX.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        scaleX.duration = duration
+        self.backBtn.layer.add(scaleX, forKey: "scaleXAnimation")
+        
+        let scaleY = CAKeyframeAnimation(keyPath:"transform.scale.y")
+        scaleY.values = [0.9, 1.1, 1.0]
+        scaleY.keyTimes = [0.0, 0.5,1.0]
+        scaleY.repeatCount = Float.infinity
+        scaleY.autoreverses = true
+        scaleY.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        scaleY.duration = duration
+        self.backBtn.layer.add(scaleY, forKey: "scaleYAnimation")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationController?.delegate = self
         self.button.layer.cornerRadius = self.button.bounds.width / 2
         self.backBtn.layer.cornerRadius = self.backBtn.bounds.height / 2
+        
+        backBtnAnimaiton()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

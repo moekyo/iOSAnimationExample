@@ -204,6 +204,7 @@
 		E2170F1C2113ED0E005C3EE0 /* iOSAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
+				E29AAF6E215E171100E44927 /* JumpStarDemo */,
 				E2CCB236215B7D880001DCED /* PingAnimationDemo */,
 				E24F6FA821217DF5004BB59C /* SplashAnimiationDemo */,
 				E24F6F8D211D9032004BB59C /* LiquidLoader */,
@@ -279,6 +280,13 @@
 				E24F6FA921217E08004BB59C /* SplashAnimiationViewController.swift */,
 			);
 			path = SplashAnimiationDemo;
+			sourceTree = "<group>";
+		};
+		E29AAF6E215E171100E44927 /* JumpStarDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JumpStarDemo;
 			sourceTree = "<group>";
 		};
 		E2CCB236215B7D880001DCED /* PingAnimationDemo */ = {

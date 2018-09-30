@@ -20,10 +20,7 @@ class PingTransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         self.transitionContext = transitionContext
-        
-        
 
-        
         if (transitionContext.viewController(forKey: .from)?.isKind(of: PingAnimation.self))! {
             let fromVC = transitionContext.viewController(forKey: .from) as! PingAnimation
             let toVC = transitionContext.viewController(forKey: .to) as! SecondViewController
