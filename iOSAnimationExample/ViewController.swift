@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView", "LiquidLoader", "PingAnimation"]
+    let examples = ["AnimatedCircle", "GooeySlideMenu", "DragBubbleView", "LiquidLoader", "PingAnimation", "ButtonInteraction"]
     
     
     override func viewDidLoad() {

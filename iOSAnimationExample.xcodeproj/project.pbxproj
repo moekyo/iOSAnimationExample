@@ -35,6 +35,9 @@
 		E24F6FA3212128A9004BB59C /* LiquidLineEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA2212128A9004BB59C /* LiquidLineEffect.swift */; };
 		E24F6FA521212A1B004BB59C /* CGRectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA421212A1B004BB59C /* CGRectExt.swift */; };
 		E24F6FAA21217E08004BB59C /* SplashAnimiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F6FA921217E08004BB59C /* SplashAnimiationViewController.swift */; };
+		E27B6DEB218A98EA00B98E34 /* ButtonInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B6DEA218A98EA00B98E34 /* ButtonInteraction.swift */; };
+		E27B6DED218A9B7C00B98E34 /* JumpStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B6DEC218A9B7C00B98E34 /* JumpStarView.swift */; };
+		E280C510218BF19B0012BECF /* DownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280C50F218BF19B0012BECF /* DownloadButton.swift */; };
 		E29AAF67215DC23400E44927 /* PingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29AAF66215DC23400E44927 /* PingAnimation.swift */; };
 		E29AAF69215DCBBB00E44927 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29AAF68215DCBBB00E44927 /* SecondViewController.swift */; };
 		E29AAF6B215DCEE900E44927 /* PingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29AAF6A215DCEE900E44927 /* PingTransition.swift */; };
@@ -100,6 +103,9 @@
 		E24F6FA2212128A9004BB59C /* LiquidLineEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidLineEffect.swift; sourceTree = "<group>"; };
 		E24F6FA421212A1B004BB59C /* CGRectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExt.swift; sourceTree = "<group>"; };
 		E24F6FA921217E08004BB59C /* SplashAnimiationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimiationViewController.swift; sourceTree = "<group>"; };
+		E27B6DEA218A98EA00B98E34 /* ButtonInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInteraction.swift; sourceTree = "<group>"; };
+		E27B6DEC218A9B7C00B98E34 /* JumpStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpStarView.swift; sourceTree = "<group>"; };
+		E280C50F218BF19B0012BECF /* DownloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadButton.swift; sourceTree = "<group>"; };
 		E29AAF66215DC23400E44927 /* PingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingAnimation.swift; sourceTree = "<group>"; };
 		E29AAF68215DCBBB00E44927 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E29AAF6A215DCEE900E44927 /* PingTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingTransition.swift; sourceTree = "<group>"; };
@@ -204,7 +210,7 @@
 		E2170F1C2113ED0E005C3EE0 /* iOSAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
-				E29AAF6E215E171100E44927 /* JumpStarDemo */,
+				E29AAF6E215E171100E44927 /* ButtonInteraction  */,
 				E2CCB236215B7D880001DCED /* PingAnimationDemo */,
 				E24F6FA821217DF5004BB59C /* SplashAnimiationDemo */,
 				E24F6F8D211D9032004BB59C /* LiquidLoader */,
@@ -282,11 +288,14 @@
 			path = SplashAnimiationDemo;
 			sourceTree = "<group>";
 		};
-		E29AAF6E215E171100E44927 /* JumpStarDemo */ = {
+		E29AAF6E215E171100E44927 /* ButtonInteraction  */ = {
 			isa = PBXGroup;
 			children = (
+				E27B6DEA218A98EA00B98E34 /* ButtonInteraction.swift */,
+				E27B6DEC218A9B7C00B98E34 /* JumpStarView.swift */,
+				E280C50F218BF19B0012BECF /* DownloadButton.swift */,
 			);
-			path = JumpStarDemo;
+			path = "ButtonInteraction ";
 			sourceTree = "<group>";
 		};
 		E2CCB236215B7D880001DCED /* PingAnimationDemo */ = {
@@ -552,11 +561,14 @@
 				E24F6F9721211E67004BB59C /* SimpleCircleLiquidEngine.swift in Sources */,
 				E2EB781F211439DC00EE8C1A /* CircleLayer.swift in Sources */,
 				E24F6F9521211E46004BB59C /* LiquittableCircle.swift in Sources */,
+				E280C510218BF19B0012BECF /* DownloadButton.swift in Sources */,
 				E24F6F8F211D9047004BB59C /* LiquidLoaderViewController.swift in Sources */,
 				E2EB781A211433A500EE8C1A /* AnimatedCircle.swift in Sources */,
 				E2149F95211BDAAF006A5830 /* SlideMenu.swift in Sources */,
 				E24F6FA3212128A9004BB59C /* LiquidLineEffect.swift in Sources */,
+				E27B6DEB218A98EA00B98E34 /* ButtonInteraction.swift in Sources */,
 				E2149F9A211D226A006A5830 /* DragBubbleView.swift in Sources */,
+				E27B6DED218A9B7C00B98E34 /* JumpStarView.swift in Sources */,
 				E24F6FA521212A1B004BB59C /* CGRectExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

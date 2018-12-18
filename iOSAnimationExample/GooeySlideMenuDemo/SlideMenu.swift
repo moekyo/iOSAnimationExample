@@ -139,7 +139,7 @@ extension SlideMenu {
             
             backgroundColor = .clear
             keyWindow.insertSubview(self, belowSubview: helperSideView)
-
+            
         }
     }
     
@@ -172,7 +172,7 @@ extension SlideMenu {
         if let centerRect = centerRect, let sideRect = sideRect {
             diff = sideRect.origin.x - centerRect.origin.x
             
-            print("diff is \(diff)")
+//            print("diff is \(diff)")
         }
         setNeedsDisplay()
         
