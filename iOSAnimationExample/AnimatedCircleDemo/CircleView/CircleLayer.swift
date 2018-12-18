@@ -41,7 +41,7 @@ class CircleLayer: CALayer {
             let origin_y = position.y - outsideRectSize / 2;
             print("layer frame \(position)")
             outsideRect = CGRect(x: origin_x, y: origin_y, width: outsideRectSize, height: outsideRectSize)
-            print("outsideRect \(outsideRect)")
+            print("outsideRect \(outsideRect!)")
             setNeedsDisplay()
         }
     }
